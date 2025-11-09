@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>factorial</title>
+	<meta name="generator" content="LibreOffice 25.8.2.2 (Windows)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<meta name="description" content="declaration: class: factorial"/>
+	<meta name="dc.created" content="2025-11-09"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<noscript>
+</head>
+<body lang="es-ES" dir="ltr"><p style="margin-bottom: 0cm">JavaScript
+is disabled on your browser.</p>
+<div id="navbar-top" dir="ltr"><p style="margin-bottom: 0cm"></noscript>&nbsp;&nbsp;&nbsp;</p>
+	<p><a href="#skip-navbar-top">Skip navigation links</a></p>
+	<ul>
+		<li><p style="margin-bottom: 0cm"><a name="navbar-top-firstrow"></a>
+		<a href="package-summary.html">Package</a> 
+		</p></li>
+		<li><p style="margin-bottom: 0cm">Class 
+		</p></li>
+		<li><p style="margin-bottom: 0cm"><a href="package-tree.html">Tree</a>
+				</p></li>
+		<li><p style="margin-bottom: 0cm"><a href="index-all.html">Index</a>
+				</p></li>
+		<li><p style="margin-bottom: 0cm"><a href="search.html">Search</a> 
+		</p></li>
+		<li><p><a href="help-doc.html#class">Help</a> 
+		</p></li>
+	</ul>
+</div>
+<ol>
+	<li><p style="margin-bottom: 0cm"><a href="package-summary.html">Unnamed
+	Package</a> 
+	</p></li>
+	<li><p><a href="factorial.html">factorial</a> 
+	</p></li>
+</ol>
+<p><a name="skip-navbar-top"></a>Contents&nbsp;</p>
+<ol>
+	<li><p style="margin-bottom: 0cm"><a href="#">Description</a> 
+	</p></li>
+	<li><p style="margin-bottom: 0cm"><a href="#method-summary">Method
+	Summary</a> 
+	</p></li>
+	<li><p style="margin-bottom: 0cm"><a href="#method-detail">Method
+	Details</a> 
+	</p>
+	<ol>
+		<li><p><a href="#factorial(int)">factorial(int)</a> 
+		</p></li>
+	</ol>
+</ol>
+<p>Hide sidebar&nbsp;<img src="resource-files/left.svg" name="Imagen1" alt="Hide sidebar" align="bottom" width="76" height="38" border="0"/>
+<img src="resource-files/right.svg" name="Imagen2" alt="Show sidebar" align="bottom" width="76" height="38" border="0"/>
+&nbsp;Show
+sidebar 
+</p>
+<h1>Class factorial</h1>
+<p style="margin-bottom: 0cm"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html">java.lang.Object</a>
+</p>
+<p style="margin-bottom: 0cm">factorial</p>
+<hr/>
+
+<p>final class factorial extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html">Object</a></p>
+<ul>
+	<ul>
+		<li><h2>Method Summary</h2></li>
+	</ul>
+</ul>
+<div id="method-summary-table" dir="ltr">
+	<ul><li style="display: block"><p style="margin-bottom: 0cm">All
+		MethodsStatic MethodsConcrete Methods</p></li>
+	</ul>
+	<div id="method-summary-table.tabpanel" dir="ltr">
+		<ul><li style="display: block"><p style="margin-bottom: 0cm">Modifier
+			and Type</p>
+			<p style="margin-bottom: 0cm">Method</p>
+			<p style="margin-bottom: 0cm">Description</p>
+			<p style="margin-bottom: 0cm"><code>static long</code></p>
+			<p style="margin-bottom: 0cm"><code><a href="#factorial(int)">factorial</a>(int&nbsp;n)</code></p>
+			<p style="margin-bottom: 0cm">Calcula el factorial de un número
+			entero positivo.</p></li>
+		</ul>
+	</div>
+</div>
+<ul>
+	<ul>
+		<ul>
+			<li style="display: block"><h3><a name="methods-inherited-from-class-java.lang.Object"></a>
+			Methods inherited from class&nbsp;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#method-summary">Object</a></h3></li>
+		</ul>
+	</ul>
+	<p><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()">clone</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)">equals</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()">finalize</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()">getClass</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()">hashCode</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()">notify</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()">notifyAll</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()">toString</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()">wait</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)">wait</a>,
+	<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)">wait</a></code></p></li>
+</ul>
+<ul>
+	<ul>
+		<li><h2>Method Details</h2>
+		<ul>
+			<li><h3>factorial</h3></li>
+		</ul>
+		<p style="margin-bottom: 0cm">public static&nbsp;long&nbsp;factorial(int&nbsp;n)</p>
+		<p style="margin-bottom: 0cm">Calcula el factorial de un número
+		entero positivo.</p>
+		<dt>Parameters: 
+		</dt><dd>
+		<code>n</code> - Número entero positivo cuyo factorial se desea
+		calcular. 
+		</dd><dt>
+		Returns: 
+		</dt><dd style="margin-bottom: 0.5cm">
+		El valor del factorial de n. 
+		</dd></li></ul>
+</ul>
+</body>
+</html>
